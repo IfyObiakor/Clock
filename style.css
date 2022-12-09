@@ -2,11 +2,10 @@ body {
     background-color: #b8d7e3;
 }
 .container {
-    width: 50vh;
-    height: 50vh;
+    width: 45vh;
+    height: 45vh;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 div.clock {
     background-image: url(images/clock-image.jpeg);
@@ -30,31 +29,31 @@ div.dot {
     border-radius: 50%;
     z-index: 2;
     position: fixed;
-    top: 25vh;
+    top: 23vh;
 }
 div.hand {
     align-self: center;
     width: 3px;
-    position: fixed;
-    bottom: 74vh;
+    position: absolute;
+    bottom: 76vh;
     transform-origin: bottom;
     z-index: 1;
 }
 div.sec_hand {
     background-color: red;
     width: 1px;
-    height: 7rem;
+    height: 15vh;
 
 }
 div.min_hand {
     background-color: blue;
-    width: 2px;
-    height: 6rem;
+    width: 3px;
+    height: 13vh;
 
 }
 div.hour_hand {
     background-color: black;
-    width: 3px;
-    height: 4rem;
+    width: 5px;
+    height: 10vh;
 
 }
